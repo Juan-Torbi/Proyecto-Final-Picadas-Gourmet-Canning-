@@ -217,9 +217,9 @@ p {
   margin: 30px 200px;
   flex-wrap: wrap; }
   .PrimerDivProdcutos .img1 {
-    height: 400px; }
+    height: 360px; }
   .PrimerDivProdcutos .img2 {
-    height: 400px; }
+    height: 360px; }
 
 .TextoProducto2 h2 {
   text-align: center;
@@ -236,9 +236,9 @@ p {
   margin: 30px 200px;
   flex-wrap: wrap; }
   .SegundoDivProductos .img3 {
-    height: 400px; }
+    height: 360px; }
   .SegundoDivProductos .img4 {
-    height: 400px; }
+    height: 360px; }
 
 .TextoProductos3 h2 {
   text-align: center;
@@ -255,9 +255,9 @@ p {
   margin: 30px 200px 30px 200px;
   flex-wrap: wrap; }
   .TercerDivProductos .img5 {
-    height: 400px; }
+    height: 360px; }
   .TercerDivProductos .img6 {
-    height: 400px; }
+    height: 360px; }
 
 .TextoProductos4 h2 {
   text-align: center;
