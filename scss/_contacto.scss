@@ -1,0 +1,104 @@
+.h4contactos{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 80px; 
+    color: burlywood; 
+}
+.redeslogos{
+    display: grid;
+    grid-template-areas:
+    "ImgIG IG"
+    "ImgFB FB"
+    "imgwp wp"
+    ;
+    justify-content: left;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+}
+.imgig{
+    grid-area: ImgIG;
+    height: 150px;
+    width: 150px;
+}
+.ig{
+    grid-area: IG;
+    font-size: 50px;
+    text-decoration: none;
+    color: burlywood;
+}
+.imgfb{
+    grid-area: ImgFB;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 50px;
+}  
+.fb{
+    grid-area: FB;
+    font-size: 50px;
+    text-decoration: none;
+    color: burlywood;
+}  
+.imgwp{
+    grid-area: imgwp;
+    height: 150px;
+    width: 150px;
+}
+.wp{
+    grid-area: wp;
+    font-size: 50px;
+    color: burlywood;
+}
+/*mirar lo de la media*/
+@media only screen and (max-width:767px){
+    .h4contactos{
+        text-align: center;
+        margin: 50px;
+        font-size: 50px;  
+    }
+    .redeslogos{
+        display: grid;
+        grid-template-areas:
+        "ImgIG IG"
+        "ImgFB FB"
+        "imgwp wp"
+        ;
+        justify-content: left;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    
+    }
+    .imgig{
+        grid-area: ImgIG;
+        height: 50px;
+        width: 50px;
+    }
+    .ig{
+        grid-area: IG;
+        font-size: 30px;
+        text-decoration: none;
+        color: burlywood;
+    }
+    .imgfb{
+        grid-area: ImgFB;
+        height: 50px;
+        width: 50px;
+        margin-bottom: 50px;
+    }  
+    .fb{
+        grid-area: FB;
+        font-size: 30px;
+        text-decoration: none;
+        color: burlywood;
+    }  
+    .imgwp{
+        grid-area: imgwp;
+        height: 50px;
+        width: 50px;
+    }
+    .wp{
+        grid-area: wp;
+        font-size: 30px;
+        color: burlywood;
+    }
+}

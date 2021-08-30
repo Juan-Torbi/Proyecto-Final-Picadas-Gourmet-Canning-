@@ -1,0 +1,198 @@
+p{
+  font-family: 'Hina Mincho', serif;
+}
+.NuestrosProductos{
+  display: flex;
+  justify-content: center;
+}
+.TextoProductos1{
+  h4{
+    text-align: center;
+    font-size: 90px;
+    background-color: burlywood;
+    margin: 30px 200px;
+
+  }
+  h2{
+    text-align: center;
+    font-size: 50px;
+    background-color: burlywood;
+    margin: 30px 200px;
+  }
+}
+.PrimerDivProdcutos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: blanchedalmond;
+  padding: 30px;
+  margin: 30px 200px;
+  flex-wrap: wrap;
+
+  
+    .img1{ 
+      height: 400px;
+
+    }
+    .img2{
+      height: 400px;
+
+    }
+}
+.TextoProducto2{
+  h2{
+    text-align: center;
+    font-size: 50px;
+    background-color: burlywood;
+    margin: 30px 200px;
+  }
+}
+.SegundoDivProductos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: blanchedalmond;
+  padding: 30px;
+  margin: 30px 200px;
+  flex-wrap: wrap;
+
+
+      .img3{
+        height: 400px;
+      }
+      .img4{
+        height: 400px;
+      }
+}
+.TextoProductos3{
+  h2{
+    text-align: center;
+    font-size: 50px;
+    background-color: burlywood;
+    margin: 30px 200px;
+  }
+}
+.TercerDivProductos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: blanchedalmond;
+  padding: 30px;
+  margin: 30px 200px 30px 200px;
+  flex-wrap: wrap;
+
+
+  .img5{
+    height: 400px;
+  }
+  .img6{
+    height: 400px;
+  }
+
+
+}
+.TextoProductos4{
+  h2{
+    text-align: center;
+    font-size: 50px;
+    background-color: burlywood;
+    margin: 30px 200px 0px 200px;
+  }
+}
+@media only screen and (max-width:767px){
+  .TextoProductos1{
+    h4{
+      text-align: center;
+      font-size: 50px;
+      background-color: burlywood;
+      margin: 15px 100px;
+  
+    }
+    h2{
+      text-align: center;
+      font-size: 25px;
+      background-color: burlywood;
+      margin: 15px 100px;
+    }
+  }
+  .PrimerDivProdcutos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: blanchedalmond;
+    padding: 15px;
+    margin: 15px 25px;
+    flex-wrap: wrap;
+  
+    
+      .img1{ 
+        height: 150px;
+  
+      }
+      .img2{
+        height: 150px;
+  
+      }
+  }
+  .TextoProducto2{
+    h2{
+      text-align: center;
+      font-size: 25px;
+      background-color: burlywood;
+      margin: 30px 100px;
+    }
+  }
+  .SegundoDivProductos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: blanchedalmond;
+    padding: 15px;
+    margin: 15px 25px;
+    flex-wrap: wrap;
+  
+  
+        .img3{
+          height: 150px;
+        }
+        .img4{
+          height: 150px;
+        }
+  }
+  .TextoProductos3{
+    h2{
+      text-align: center;
+      font-size: 25px;
+      background-color: burlywood;
+      margin: 15px 100px;
+    }
+  }
+  .TercerDivProductos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: blanchedalmond;
+    padding: 15px;
+    margin: 15px 25px 15px 25px;
+    flex-wrap: wrap;
+  
+  
+    .img5{
+      height: 150px;
+    }
+    .img6{
+      height: 150px;
+    }
+  
+  
+  }
+  .TextoProductos4{
+    h2{
+      text-align: center;
+      font-size: 25px;
+      background-color: burlywood;
+      margin: 15px 100px 0px 100px;
+    }
+  }
+
+}
